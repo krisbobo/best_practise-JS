@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    list-style-type: none;
+  }
+  
+  .container {
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 95%;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0.5rem 0.9rem 1.2rem #e6e6e6;
+  }
+  
+  .app-title {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 1rem;
+  }
+  
+  .fa-solid {
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #5c5c5c;
+    transition: opacity 0.3s ease-out;
+  }
+  
+  .fa-solid:hover {
+    color: red;
+    opacity: 1;
+  }
+  
+  .app-title .material-icons {
+    cursor: pointer;
+  }
+  
+  .add-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e6e6e6;
+    background: #f6f6f6;
+  }
+  
+  .add-form input::placeholder {
+    font-style: italic;
+  }
+  
+  .add-form #add-to-list {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background: #f6f6f6;
+  }
+  
+  .add-form #form-button {
+    border: none;
+    background: #f6f6f6;
+    padding-right: 1.7rem;
+  }
+  
+  .add-form #form-button i {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #5c5c5c;
+    cursor: pointer;
+  }
+  
+  li {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  
+  input[type="checkbox"] {
+    cursor: pointer;
+  }
+  
+  input[type="text"] {
+    flex: 8;
+    border: none;
+    padding: 0 2rem;
+    outline: none;
+  }
+  
+  .line-through {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+  
+  .list-items .list-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 1rem;
+  }
+  
+  .clear-btn {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: #f8f8f8;
+  }
+  
+  .btn-clear {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #5c5c5c;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: blueviolet;
+    text-align: center;
+    font-size: 19px;
+    color: whitesmoke;
+    padding: 20px 0;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .container {
+      width: 40%;
+    }
+  }
